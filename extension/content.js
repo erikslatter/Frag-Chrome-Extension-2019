@@ -1,6 +1,5 @@
 //Full original credit to Meeoh for the script
-//Credit to jumppilot for helping me fix the script
-
+//Huge thanks to Jumppilot for walking me through making this script work at page load
 function findRanks(i) {
     var allUsers = $(document).find("#body-match-total" + i + " tr");  
    
@@ -14,7 +13,6 @@ function findRanks(i) {
         });
     });
 }
-
 
 findRanks(1);
 findRanks(2);
