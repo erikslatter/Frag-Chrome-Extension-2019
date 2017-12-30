@@ -1,9 +1,9 @@
 //Full original credit to Meeoh for the script
 //Huge thanks to Jumppilot for walking me through making this script work at page load
 function findRanks(i) {
-    var allUsers = $(document).find("#body-match-total" + i + " tr");  
-   
-    $.each($(document).find("#body-match-total" + i + " tr"), function(index, value){
+	if(window.location.href.indexOf("match") > -1) {
+      var allUsers = $(document).find("#body-match-total" + i + " tr");   
+      $.each($(document).find("#body-match-total" + i + " tr"), function(index, value){
         var userLink = "https://play.esea.net/users/" + allUsers[index].children[0].children[1].innerHTML
         $.get(userLink, function(data) {
             data = data.replace(/<img[^>]*>/g,"");
@@ -12,6 +12,7 @@ function findRanks(i) {
             allUsers[index].children[0].children[1].innerHTML += " (" + rank + ") ";          
         });
     });
+  }
 }
 
 findRanks(1);

@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "Frag | Improved ESEA",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "An unofficial extension to improve quality of life on ESEA.net with a focus on clean aesthetics and legibility.",
   "author": "Erik 'edit' S.",
   "browser_action": {
