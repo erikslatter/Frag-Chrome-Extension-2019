@@ -838,4 +838,9 @@ img#displayGraph {
 	background-color: #2d2d2d !important;
 }
 
+div#rankGraph {
+	
+	border:none !important;
+}
+
 
