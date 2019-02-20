@@ -1,5 +1,3 @@
-//Full original credit to Meeoh for the script
-//Huge thanks to Jumppilot for walking me through making this script work at page load
 function findRanks(i) {
 	if(window.location.href.indexOf("match") > -1) {
       var allUsers = $(document).find("#body-match-total" + i + " tr");   
