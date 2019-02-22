@@ -28,19 +28,26 @@
     background-color: #111111!important;
 }
 
+
+
+/*dark white*/
+.kctdJa, .dRLkYn, .hmdtxd, .GeyJ, .irDRGM, .dHTphf, .fKxXdm, .liBvVv, .lnNmAy, .eMXyii, .bhwNLL, .eEyrOy {
+    color: #999999 !important;
+}
+
 /*white*/
-.P, .cjBUSf, .Flex, .dCRgMF, text, .Text, .Heading, strong, .Strong, .liBvVv {
+.P, .cjBUSf, .Flex, .dCRgMF, text, .Text, .Heading, strong, .Strong, .iqcrvc {
     color: #f5f5f5;
 }
 
-/*dark white*/
-.Th, .sc-bdVaJa {
-    color: #999999;
+/*white override*/
+.iqcrvc, .active {
+    color: #f5f5f5 !important;
 }
 
-/*green*/
+/*fixing logo*/
 .Icon-logoStar {
-    fill: #0abe2c!important;
+    fill: #0e9648 !important;
 }
 /*background*/
 @media (min-width: 1200px) {
