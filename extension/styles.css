@@ -1,17 +1,8 @@
-/*pretty cool that you found this :)*/
-
-
 /*Frag | Improved ESEA*/
 /*Google Chrome Extension*/
 /*Created, developed and maintained entirely by Erik "edit" Slatter*/
 /* https://play.esea.net/users/2040891 */
 /* https://twitter.com/erikslatter/ */
-
-
-
-
-
-
 
 /*blue*/
 .TextLink {
@@ -24,36 +15,26 @@
 
 }
 /*dark gray*/
-.Block, thead, :not(.Grid) {
-    background-color: #111111!important;
-}
-
-
-
+.Block:not(.kCSxSG):not(.hxtuZU):not(.eZsesN):not(.gXhTYP):not(.cZjAsf):not(.ELxHK):not(.kOhwkU):not(.itdWVu):not(.fQZFZw):not(.jGdNqm):not(.kPnxIB):not(.bwwCKU), thead {
+    background-color: #111111 !important;
+} .Block.sc-bdVaJa.iVCeVx {
+        background-color: rgba(0,0,0,0)!important;
+    }
 /*dark white*/
 .kctdJa, .dRLkYn, .hmdtxd, .GeyJ, .irDRGM, .dHTphf, .fKxXdm, .liBvVv, .lnNmAy, .eMXyii, .bhwNLL, .eEyrOy {
     color: #999999 !important;
 }
-
 /*white*/
 .P, .cjBUSf, .Flex, .dCRgMF, text, .Text, .Heading, strong, .Strong, .iqcrvc {
     color: #f5f5f5;
 }
-
 /*white override*/
-.iqcrvc, .active {
+.iqcrvc, .active, .hWnNDR {
     color: #f5f5f5 !important;
 }
-
 /*fixing logo*/
 .Icon-logoStar {
     fill: #0e9648 !important;
-}
-/*background*/
-@media (min-width: 1200px) {
-    .bvAcni {
-        background: url(/images/takeover.png) center top no-repeat fixed, url(/images/takeover-fill.png) repeat, url(https://static.esea.net/global/images/content_images/11777.jpg) center top / cover no-repeat fixed rgb(17, 17, 17);
-    }
 }
 
 
