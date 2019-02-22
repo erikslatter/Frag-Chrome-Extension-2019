@@ -20,6 +20,11 @@ function swapBlacksForLegacy() {
         if ($(this).css("color") == "rgb(0, 0, 0)")
             $(this).css("color", "#f5f5f5");
     });
+
+    $('div').each(function (index, value) {
+        if ($(this).css("background-color") == "rgb(255, 255, 255)" || $(this).css("background-color") == "rgb(250, 250, 250)")
+            $(this).css("background-color", "#111111");
+    });
 }
 if ($('#root').length == 0)
     swapBlacksForLegacy();
