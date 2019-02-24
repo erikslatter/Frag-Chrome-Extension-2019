@@ -21,7 +21,7 @@ function swapBlacksForLegacy() {
             $(this).css("color", "#f5f5f5");
     });
 
-    $('div').each(function (index, value) {
+    $('*').each(function (index, value) {
         if ($(this).css("background-color") == "rgb(255, 255, 255)" || $(this).css("background-color") == "rgb(250, 250, 250)")
             $(this).css("background-color", "#111111");
     });
