@@ -15,7 +15,7 @@
 
 }
 /*dark gray*/
-.Block:not(.kCSxSG):not(.hxtuZU):not(.eZsesN):not(.gXhTYP):not(.cZjAsf):not(.ELxHK):not(.kOhwkU):not(.itdWVu):not(.fQZFZw):not(.jGdNqm):not(.kPnxIB):not(.bwwCKU):not(.ibTDPh):not(.gjfMwR):not(.iVCeVx):not(.duSgrg):not(.duSgrg):not(.gKnzPt):not(.kQJrfZ):not(.DIBpV):not(.dNiRHw), thead, .BbCLF, .kLTLAD {
+.Block:not(.kCSxSG):not(.hxtuZU):not(.eZsesN):not(.gXhTYP):not(.cZjAsf):not(.ELxHK):not(.kOhwkU):not(.itdWVu):not(.fQZFZw):not(.jGdNqm):not(.kPnxIB):not(.bwwCKU):not(.ibTDPh):not(.gjfMwR):not(.iVCeVx):not(.duSgrg):not(.duSgrg):not(.kUhAfA):not(.dvLnKl):not(.gKnzPt):not(.kQJrfZ):not(.hDYatj):not(.dCRgMF):not(.DIBpV):not(.dNiRHw):not(.GyyiJ), thead, .BbCLF, .kLTLAD {
     background-color: #111111 !important;
 }
 /*dark white*/
@@ -39,6 +39,9 @@
     background-color: #f5f5f5 !important;
 } .hWnNDR {
     fill: #f5f5f5 !important;
+}
+.GyyiJ {
+    background-color: rgba(0, 0, 0, 0.5)!important;
 }
 
 
