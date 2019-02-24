@@ -27,7 +27,7 @@
     color: #f5f5f5;
 }
 /*white override*/
-.iqcrvc, .active, .hWnNDR, .recharts-surface, .hewyER, .gKnzPt, .kQJrfZ, .active, .YajvY {
+.iqcrvc, .active, .hWnNDR, .recharts-surface, .hewyER, .gKnzPt, .kQJrfZ, .active, .YajvY, .edzVsJ {
     color: #f5f5f5 !important;
 } .Icon.Icon-logoStar.Svg.sc-bdVaJa.bqlbK, .Icon.Icon-thumbtack.Svg.sc-bdVaJa.fZvfJh, .huWYSl, .fZvfJh, .jfygWq {
     fill: #0e9648 !important;
@@ -42,6 +42,9 @@
 }
 .GyyiJ {
     background-color: rgba(0, 0, 0, 0.5)!important;
+}
+input.right {
+    color: black!important;
 }
 
 
